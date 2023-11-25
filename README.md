@@ -7,9 +7,9 @@
 3. deleteUser(id) - удаление пользователей в массиве (по id)  
   
 Все функции должны ссылаться на 1 массив users:  
-let users = [
-    {id: 1, name: 'Alex', lastname: 'Wilyam', age: 20},
-    {id: 2, name: 'Steven', lastname: 'King', age: 34} 
+let users = [  
+    {id: 1, name: 'Alex', lastname: 'Wilyam', age: 20},  
+    {id: 2, name: 'Steven', lastname: 'King', age: 34}   
 ]  
   
 Примечание:  
