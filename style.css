@@ -7,8 +7,29 @@ span {
 	font-size: 3vw;
 }
 
+body {
+	overflow: hidden;
+}
+
+.text-center {
+	transform: translateY(-150%);
+	animation: text 2s forwards;
+}
+
 .input {
 	font-size: 3vw;
+	transform: translateX(-150%);
+	animation: input 2s forwards;
+}
+
+.btn-add {
+	transform: translateX(150%);
+	animation: btn-add 2s forwards;
+}
+
+.list-group {
+	opacity: 0;
+	animation: list 3s forwards;
 }
 
 .user {
@@ -19,6 +40,26 @@ span {
 	font-size: 3vw;
 	margin-top: 1vw;
 	margin-bottom: 2.5vw;
+}
+
+@keyframes text {
+	0% {transform: translateY(-150%);}
+	100% {transform: translateY(0);}
+}
+
+@keyframes input {
+	0% {transform: translateX(-150%);}
+	100% {transform: translateX(0);}
+}
+
+@keyframes btn-add {
+	0% {transform: translateX(150%);}
+	100% {transform: translateX(0);}
+}
+
+@keyframes list {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
 @media(max-width: 500px) {
