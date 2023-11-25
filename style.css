@@ -1,0 +1,40 @@
+
+h1 {
+	font-size: 5vw;
+}
+
+span {
+	font-size: 3vw;
+}
+
+.input {
+	font-size: 3vw;
+}
+
+.user {
+	width: 45vw;
+}
+
+#add {
+	font-size: 3vw;
+	margin-top: 1vw;
+	margin-bottom: 2.5vw;
+}
+
+@media(max-width: 500px) {
+	h1 {
+		font-size: 10vw;
+	}
+
+	span {
+		font-size: 5vw;
+	}
+
+	.input {
+		font-size: 6vw;
+	}
+
+	#add {
+		font-size: 6vw;
+	}
+}
